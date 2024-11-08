@@ -1070,7 +1070,7 @@ class Profile:
     @property
     def business_category_name(self) -> str:
         """.. versionadded:: 4.4"""
-        return self._metadata('business_category_name')
+        return self._metadata('category')
 
     @property
     def biography(self) -> str:
