@@ -1079,6 +1079,10 @@ class Profile:
     @property
     def category_name(self) -> str:
         return self._metadata('category_name')
+    
+    @property
+    def business_address_json(self) -> str:
+        return self._metadata('business_address_json')
 
     @property
     def biography(self) -> str:
