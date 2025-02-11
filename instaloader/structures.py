@@ -1073,6 +1073,10 @@ class Profile:
         return self._metadata('business_category_name')
 
     @property
+    def business_address_json(self) -> str:
+        return self._metadata('business_address_json')
+
+    @property
     def category_enum(self) -> str:
         return self._metadata('category_enum')
 
